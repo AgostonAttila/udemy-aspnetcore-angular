@@ -1,0 +1,67 @@
+Shift +Ctrl + P
+Extensions
+
+Angular v4 Typescript Snippets
+ASP.NERT Helper
+Auto Import
+Beautify
+C#
+C# Extensions
+Docker
+mssql
+Rest Client
+
+Yeoman cmd
+npm install -g yo generator-aspnetcore-spa
+
+docker pull microsoft/mssql-server-linux
+docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=MyComplexPassword!234' -p 1433:1433 -v -d  microsoft/mssql-server-linux (/user/my/db:/var/opt/mssql csak linuxon)
+
+bit.ly/sqlservertools
+macsqlclient.com
+
+docker ps
+docker stop e8cf
+
+docker ps
+docker ps -a
+docker 
+
+yo aspnetcore-spa
+
+dotnet run
+code .
+
+Ctrl+`  = terminal window
+
+
+Kestrel belsõ használatra cross platform serveres de nem anynira biztonságos
+nyíltra apache,iis
+
+
+set ASPNETCORE_ENVIRONMENT="Development"
+
+dotnetwatch frissíti a c# ot is
+
+dotnet restore
+
+dotnet watch run -> ilyenkor c# ot is újrafordítja
+
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+
+dotnet ef migrations add --help
+
+dotnet add package Microsoft.EntityFrameworkCore.Design
+
+dotnet ef migrations add InitialCreate
+dotnet ef migrations remove
+dotnet ef database update
+dotnet ef database update 0 adatbázisból kitörli
+
+webpack --config webpack.config.vendor.js
+webpack
+
+dotnet add package AutoMapper
+dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection
+dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection --version 1.2.0
+dotnet add package AutoMapper.Extensions.Microsoft.Dependency Injection

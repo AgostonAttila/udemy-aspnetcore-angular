@@ -1,0 +1,20 @@
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
+
+npm install --save auth0-js angular2-jwt
+
+
+https://auth0.com/docs/scopes/current
+
+
+//10
+
+npm install chart.js angular2-chartjs --save
+
+
+    <DotNetCliToolReference Include="Microsoft.extensions.SecretManager.Tools" Version="1.0.1" />
+
+dotnet user-secrets --help
+dotnet user-secrets --help
+dotnet user-secrets set ConnectionStrings:Default "Server=./;Database=Vega;user id=sa;password=Gorenje9028"
+
+dotnet add package Microsoft.Extensions.Configuration.UserSecrets

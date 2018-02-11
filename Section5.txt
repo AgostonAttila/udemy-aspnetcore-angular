@@ -1,0 +1,16 @@
+npm i ng2-toasty@2.5.0 --save
+
+webpack --config webpack.config.vendor.js
+
+webpack 
+
+
+zone.js
+
+sentry.io   npm i raven-js --save
+
+npm i underscore
+npm i @types/underscore
+
+
+npm i font-awesome

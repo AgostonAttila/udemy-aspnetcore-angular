@@ -1,0 +1,12 @@
+npm install @angular/cli@latest -g
+
+ng new hello-world külön mappába
+
+npm install @angular/cli@latest --save--dev   npm install --save-dev @angular/cli@latest
+
+ng g component vehicle-form component mappába!!! legenerálja hozzáadja appban is
+
+Zen codeing
+
+app->services ng g service make
+
